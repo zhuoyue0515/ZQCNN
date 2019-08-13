@@ -95,7 +95,7 @@ int main()
 	}
 	//cv::resize(image0, image0, cv::Size(), 2, 2);
 	if (image0.channels() == 1)
-		cv::cvtColor(image0, image0, CV_GRAY2BGR);
+		cv::cvtColor(image0, image0, cv::COLOR_GRAY2BGR);
 	//cv::convertScaleAbs(image0, image0, 2.0);
 	/* TIPS: when finding tiny faces for very big image, gaussian blur is very useful for Pnet*/
 	bool run_blur = true;

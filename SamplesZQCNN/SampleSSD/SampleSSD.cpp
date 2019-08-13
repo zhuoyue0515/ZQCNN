@@ -45,7 +45,7 @@ int main()
 		cout << "empty image\n";
 		return EXIT_FAILURE;
 	}
-	cv::cvtColor(img1, img0, CV_BGR2RGB);
+	cv::cvtColor(img1, img0, cv::COLOR_BGR2RGB);
 	//img0 = img1;
 	ZQ_CNN_SSD detector;
 #if defined(_WIN32)

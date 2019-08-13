@@ -57,7 +57,7 @@ int main()
 		return EXIT_FAILURE;
 	}
 	if (ori_img.channels() == 1)
-		cv::cvtColor(ori_img, ori_img, CV_GRAY2BGR);
+		cv::cvtColor(ori_img, ori_img, cv::COLOR_GRAY2BGR);
 	int ori_width = ori_img.cols;
 	int ori_height = ori_img.rows;
 	Mat draw_img;

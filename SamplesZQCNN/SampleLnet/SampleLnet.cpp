@@ -46,7 +46,7 @@ int main()
 		return EXIT_FAILURE;
 	}
 	if (img.channels() == 1)
-		cv::cvtColor(img, img, CV_GRAY2BGR);
+		cv::cvtColor(img, img, cv::COLOR_GRAY2BGR);
 	cv::resize(img, img, cv::Size(48, 48));
 	Mat draw_img;
 	img.copyTo(draw_img);

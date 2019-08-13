@@ -2,6 +2,9 @@
 //#define __aarch64__ 1
 #include "mat.h"
 #include "convolution_1x1.h"
+#include <math.h>
+#include <algorithm>
+using namespace std;
 using namespace ncnn;
 void MatMul0_AB(int M, int N, int K, const float* A, const float* B, float* C);
 void transpose(float* C, int M, int N);
