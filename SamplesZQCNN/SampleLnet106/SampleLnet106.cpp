@@ -105,7 +105,7 @@ int main(int argc, char **argv)
 	cout<<show_H<<","<<show_W<<endl;
 	//namedWindow("landmark");
 	//imshow("landmark", draw_img);
-	cv::imwrite("/home/ubuntu/ff-ML/face_API/deploy/keras-complete-rest-api/users_photo/landmark.jpg", draw_img);
+	cv::imwrite("/home/ubuntu/ff-ML/face_API/deploy/FF_Face_API/users_photo/landmark.jpg", draw_img);
 	//waitKey(0);
 	return EXIT_SUCCESS;
 }
